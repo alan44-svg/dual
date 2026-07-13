@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título principal */
+h1{
+    text-align: center;
+    color: #00aeff;
+    font-size: 40px;
+}
+
+/* Párrafos */
+p{
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Todas las secciones */
+section{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Títulos de las secciones */
+h2{
+    color: #0066cc;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+}
+
+/* Enlace */
+a{
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* Imagen */
+img{
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px gray;
+}
+
+/* Contenedor de listas */
+div{
+    background-color: #eef4ff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Listas */
+ul{
+    color: green;
+}
+
+ol{
+    color: darkred;
+}
+
+li{
+    margin: 8px 0;
+}
+
+/* Sección de investigación */
+section:last-of-type{
+    background-color: #e8f5e9;
+    border-left: 6px solid #00ffea;
+}
+
+section:last-of-type h2{
+    color: #2e7d72;
+    border-bottom: 2px solid #0084ff;
+}
+
+section:last-of-type p{
+    color: #0084ff;
+}
+
+/* Pie de página */
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
