@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera web</title>
 
     <link rel="stylesheet" href="style.css">
@@ -9,57 +10,138 @@
 </head>
 <body>
 
-        <h1>LA MOTIVACION</h1>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
 
-        <p>la motivacion es aquel conjunto de razones deseos o necesidades que motivan a una persona alcanzar una meta </p>
+        <h2>Mi Página Web</h2>
 
-        <section>
-            <a href="https://www.google.com/">visita mi página</a>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Motivación</a></li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
 
-            <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaGj9Yy5dVNecozkVa3pbzFYTQCZ8kqbtcqzXeJrRCww&s=10"
-                alt="motivacion"
-            >
+    </nav>
 
-            <div>
-                <ul>
-                    <li>lista 1</li>
-                    <li>lista 2</li>
-                </ul>
+    <h1>LA MOTIVACION</h1>
 
-                <ol>
-                    <li>lista 1</li>
-                    <li>lista 2</li>
-                </ol>
+    <p>
+        La motivación es aquel conjunto de razones, deseos o necesidades que motivan a una persona a alcanzar una meta.
+    </p>
+
+    <section>
+
+        <a href="https://www.google.com/" target="_blank">Visita mi página</a>
+
+        <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaGj9Yy5dVNecozkVa3pbzFYTQCZ8kqbtcqzXeJrRCww&s=10"
+            alt="motivacion"
+        >
+
+        <div>
+            <ul>
+                <li>Lista 1</li>
+                <li>Lista 2</li>
+            </ul>
+
+            <ol>
+                <li>Lista 1</li>
+                <li>Lista 2</li>
+            </ol>
+        </div>
+
+    </section>
+
+    <!-- SEO -->
+
+    <section>
+
+        <h2>¿Qué es el SEO?</h2>
+
+        <p>
+            El SEO (Search Engine Optimization) es el conjunto de técnicas que ayudan a mejorar el posicionamiento de una página web en los motores de búsqueda como Google. Su objetivo es aumentar la visibilidad del sitio para que más personas puedan encontrarlo de forma orgánica.
+        </p>
+
+    </section>
+
+    <!-- Tailwind -->
+
+    <section>
+
+        <h2>Investigación sobre Tailwind CSS y Responsive Design</h2>
+
+        <p>
+            Tailwind CSS es un framework de CSS que permite crear interfaces web modernas utilizando clases utilitarias ya definidas, lo que facilita el desarrollo de sitios web rápidos, organizados y fáciles de mantener. Por otra parte, el Responsive Design es una técnica de diseño web que permite que una página se adapte automáticamente a distintos tamaños de pantalla, ofreciendo una buena experiencia tanto en computadoras como en tabletas y teléfonos móviles.
+        </p>
+
+    </section>
+
+    <!-- Servicios -->
+
+    <section>
+
+        <h2>Nuestros Servicios</h2>
+
+        <div class="servicios">
+
+            <div class="servicio">
+                <h3>HTML</h3>
+                <p>Creación de la estructura de páginas web.</p>
             </div>
-        <!-- Nueva sección -->
-        <section>
-            <h2>¿Qué es el SEO?</h2>
-            <p>
-                El SEO (Search Engine Optimization) es el conjunto de técnicas que
-                ayudan a mejorar el posicionamiento de una página web en los motores
-                de búsqueda como Google. Su objetivo es aumentar la visibilidad del
-                sitio para que más personas puedan encontrarlo de forma orgánica.
-            </p>
 
-        </section>
+            <div class="servicio">
+                <h3>CSS</h3>
+                <p>Diseño y estilos modernos para sitios web.</p>
+            </div>
 
-        <section>
-            <h2>Investigación sobre Tailwind CSS y Responsive Design</h2>
+            <div class="servicio">
+                <h3>SEO</h3>
+                <p>Optimización para aparecer en los motores de búsqueda.</p>
+            </div>
 
-            <p>
-                Tailwind CSS es un framework de CSS que permite crear interfaces web
-                modernas utilizando clases utilitarias ya definidas, lo que facilita
-                el desarrollo de sitios web rápidos, organizados y fáciles de mantener.
-                Por otra parte, el Responsive Design es una técnica de diseño web que
-                permite que una página se adapte automáticamente a distintos tamaños de
-                pantalla, ofreciendo una buena experiencia tanto en computadoras como
-                en tabletas y teléfonos móviles.
-            </p>
-        </section>
+            <div class="servicio">
+                <h3>Responsive</h3>
+                <p>Adaptación de la página para celulares, tabletas y computadoras.</p>
+            </div>
 
+        </div>
 
-        <footer>en redes sociales como: </footer>
+    </section>
 
-    </body>
+    <!-- ¿Por qué elegirnos? -->
+
+    <section>
+
+        <h2>¿Por qué elegirnos?</h2>
+
+        <div class="elegir">
+
+            <div class="opcion">
+                <h3>Calidad</h3>
+                <p>Ofrecemos contenido organizado, claro y fácil de comprender.</p>
+            </div>
+
+            <div class="opcion">
+                <h3>Innovación</h3>
+                <p>Utilizamos herramientas modernas como HTML, CSS y Flexbox.</p>
+            </div>
+
+            <div class="opcion">
+                <h3>Diseño</h3>
+                <p>Nuestras páginas son atractivas y adaptables a distintos dispositivos.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        En redes sociales como:
+        Facebook | Instagram | X | YouTube
+
+    </footer>
+
+</body>
 </html>
