@@ -213,3 +213,20 @@ footer{
     transform: scale(1.05);
     transition: .3s;
 }
+
+@media (max-width: 768px){
+
+    .navbar{
+        background-color: red;
+    }
+
+}
+
+/* Pantallas grandes */
+@media (min-width: 769px){
+
+    .navbar{
+        background-color: #00aeff;
+    }
+
+}
