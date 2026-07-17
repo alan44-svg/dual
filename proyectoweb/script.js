@@ -26,8 +26,13 @@ console.log(`Hola ${nombre}, tienes ${edad} años.`);
 console.log(`Naciste aproximadamente en ${nacimiento}.`);
 console.log(`Bienvenido a ${empresa}.`);
 
+//tipo de datos 
 
-
+let nombre = "Alan";          // String
+let edad = 18;                // number
+let promedio = 9.5;           // Float
+let estudiante = true;        // Boolean
+let dato = null;              // Null
 
 
 // Operaciones matemáticas
@@ -67,8 +72,14 @@ let tieneCredencial = true;
 
 console.log(`Mayor de edad y tiene credencial: ${mayorEdad && tieneCredencial}`);
 console.log(`Mayor de edad o tiene credencial: ${mayorEdad || tieneCredencial}`);
+console.log(`No es estudiante: ${!estudiante}`);
 
 
 
 // Muestra de resultados
 console.log(`La suma de ${num1} + ${num2} es igual a ${suma}`);
+
+console.log(`Resumen:
+Nombre: ${nombre}
+Empresa: ${empresa}
+Promedio: ${promedio}`);
